@@ -1,5 +1,13 @@
+import Card from "./components/Card";
+import Header from "./components/Header";
+
 
 function App() {
-  return  <h1>React App</h1>;
+        return  (
+                <>
+                      < Card />
+                      < Header />
+                </>
+        )
 }
 export default App;
